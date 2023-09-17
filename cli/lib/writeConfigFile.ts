@@ -6,7 +6,6 @@ export default async function writeConfigFile(
     "key": "${password}",
     "crons": [
         {
-            "name": "my-cron",
             "schedule": "0 0 * * *", 
             "method": "GET",
             "url": "https://example.com",

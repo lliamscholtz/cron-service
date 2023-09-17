@@ -11,3 +11,5 @@ bun.lockb
 
 # macOS-specific files
 .DS_Store
+
+cronx.config.json
