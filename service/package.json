@@ -1,0 +1,17 @@
+{
+    "name": "cron-service",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "bun --watch index.ts"
+    },
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "elysia": "^0.6.23"
+    }
+}
