@@ -63,7 +63,7 @@ async function register() {
         }
     );
 
-    p.note('Account registered', 'Registration.');
+    p.note('Account registered', '📝 Registration.');
 
     // TODO: Register the user
 
@@ -72,7 +72,7 @@ async function register() {
         await writeConfigFile(configFileName, apiKey);
         await upgateGitIgnore(configFileName);
 
-        p.note(onComplete, 'Configuration.');
+        p.note(onComplete, '🛠️  Configuration.');
     }
 }
 
@@ -115,7 +115,7 @@ async function config() {
         await writeConfigFile(configFileName, apiKey);
         await upgateGitIgnore(configFileName);
 
-        p.note(onComplete, 'Done.');
+        p.note(onComplete, '🛠️  Configuration.');
     }
 }
 
@@ -123,7 +123,7 @@ async function config() {
 // DEPLOY
 // **********************
 async function deploy() {
-    p.note('Cron jobs deployed.', 'Deployment.');
+    p.note('Cron jobs deployed.', '🚀 Deployment.');
 }
 
 // **********************
